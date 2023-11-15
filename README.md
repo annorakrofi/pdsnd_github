@@ -14,7 +14,7 @@ Thanks to the rise in information technologies, it is easy for a user of the sys
 In this project, you will use data provided by Motivate, a bike share system provider for many major cities in the United States, to uncover bike share usage patterns. You will compare the system usage between three large cities: Chicago, New York City, and Washington, DC.
 
 ### Files used
-Include the files used
+You need to enrol in udacity programming for data science to have access to all project files. 
 
 ### Credits
 https://github.com/udacity/pdsnd_github
