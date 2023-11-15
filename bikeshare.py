@@ -95,13 +95,13 @@ def load_data(city, month, day):
 def time_stats(df):
     """Displays statistics on the most frequent times of travel."""
 
-    print('\nCalculating  Frequent Times of Travel...\n')
+    print('\nCalculating the  Frequent Times of Travel...\n')
     start_time = time.time()
 
     # display the most common month
     popular_month = df['month'].mode()[0]
 
-    print('Most Popular Month:', popular_month)
+    print('Most Popular Month of the year:', popular_month)
 
     # display the most common day of week
     popular_day_of_week = df['day_of_week'].mode()[0]
@@ -165,7 +165,7 @@ def trip_duration_stats(df):
 def user_stats(df,city):
     """Displays statistics on bikeshare users."""
 
-    print('\nCalculating User Stats...\n')
+    print('\nCalculating  the User Stats...\n')
     start_time = time.time()
 
     # Display counts of user types
@@ -197,7 +197,7 @@ def main():
         trip_duration_stats(df)
         user_stats(df,city)
 
-        restart = input('\nWould you like to restart? Enter yes or no.\n')
+        restart = input('\nAre you interested in initiating a restart? Enter yes or no.\n')
         if restart.lower() != 'yes':
             break
 
