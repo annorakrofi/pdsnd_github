@@ -101,7 +101,7 @@ def time_stats(df):
     # display the most common month
     popular_month = df['month'].mode()[0]
 
-    print('Most Popular Month:', popular_month)
+    print('Most Popular Month of the year:', popular_month)
 
     # display the most common day of week
     popular_day_of_week = df['day_of_week'].mode()[0]
@@ -165,7 +165,7 @@ def trip_duration_stats(df):
 def user_stats(df,city):
     """Displays statistics on bikeshare users."""
 
-    print('\nCalculating User Stats...\n')
+    print('\nCalculating  the User Stats...\n')
     start_time = time.time()
 
     # Display counts of user types
